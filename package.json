@@ -1,0 +1,29 @@
+{
+  "name": "cowinnotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon Server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneha025/cowinNotify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sneha025/cowinNotify/issues"
+  },
+  "homepage": "https://github.com/sneha025/cowinNotify#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.9",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "querystring": "^0.2.1"
+  }
+}
